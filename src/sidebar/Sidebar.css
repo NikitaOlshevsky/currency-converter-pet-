@@ -1,0 +1,38 @@
+.sidebar {
+    position: absolute;
+    left: 20px;
+    width: 250px;
+    height: 400px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0, .2);
+}
+
+.sidebar__title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+.sidebar__descr {
+    margin: 15px 0 15px 0;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.sidebar__item{
+    display: grid;
+    grid-template-columns: 165px 32px;
+    justify-content: space-around;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.sidebar__item-title {
+    font-weight: 300;
+}
+.sidebar__item-title span {
+    font-weight: 500;
+}
